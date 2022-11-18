@@ -9,7 +9,7 @@ Take a look at the `smart-contracts` folder. Here, you will see a folder for eve
 - `src` => Contains all the actual smart contracts
 - `tests` => Contains the test files for those contracts
 
-For this challenge, there is a smart contract called `Challenge_1.sol`. This contract has a `string message` and a function `showMessage()` that returns the message. There is also a test file called `Challenge_1.t.sol` (test files should always have the extension t.sol), and it initiates the `Challenge_1.sol` contract so we can call its functions. It runs the `setUp()` function from Foundry; this runs before every test you write in the file. For more information, check out the [Foundry book](https://book.getfoundry.sh/forge/writing-tests).
+For this challenge, there is a smart contract called `Challenge_1.sol`. This contract has a `string message` and a function `getMessage()` that returns the message. There is also a test file called `Challenge_1.t.sol` (test files should always have the extension t.sol), and it initiates the `Challenge_1.sol` contract so we can call its functions. It runs the `setUp()` function from Foundry; this runs before every test you write in the file. For more information, check out the [Foundry book](https://book.getfoundry.sh/forge/writing-tests).
 
 Whew, we covered many things already but yet did so little! Take a sip of your coffee. Breathe in, breathe out. When ready, run your first test by putting `FOUNDRY_PROFILE=challenge-1 forge test --match-contract Challenge1` in your terminal. Sit back, and enjoy the dopamine of that green checkmark.
 
